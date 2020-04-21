@@ -5,6 +5,7 @@ function SearchPokemon({ searchTerms, inputSearch, inputResult }) {
     const newSearch = event.target.value;
     inputSearch(newSearch);
   }
+
   return (
     <section>
       <input value={searchTerms} onChange={handleInput}></input>
